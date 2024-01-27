@@ -241,6 +241,19 @@ footer{
     }
  }
 
+ @media(max-width:500px){
+    nav{
+        border-radius: 0;
+        
+    }
+ }
+ @media(max-width:420px){
+    .item{
+        padding-right: 100px;
+    }
+ }
+ 
+
 
     
             
