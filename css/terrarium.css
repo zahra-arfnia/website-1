@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+*::selection{
+   background-color: rgb(225,203,112); 
+}
+
+
+
+body{
+      background-color: #f0efef;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background-color: white;
+    border-bottom: 2.5px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    padding-left: 250px;
+    padding-right: 250px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    z-index: 1;
+     
+}
+ 
+.item{
+    color: black;
+    text-decoration: none;
+    
+}
+ 
+.item:hover{
+  border-bottom: 4px solid rgb(225,203,112);
+  padding-bottom: 15px;
+}
+
+
+img{
+    border-radius: 20px;
+    width: 170px;
+    height: 200px;
+}
+
+.article-11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;  
+    /* margin-bottom: 50px; */
+    margin-top: 150px;
+}
+
+.first{
+    width: 200px;
+    height: 300px;
+    border: 3px solid #cfcfcf;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    padding-right: 15px;
+    padding-left: 15px;
+     
+}
+    
+    
+.article-1{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.article-2{
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    display: block;
+    color: gray;
+}
+    
+.article-3{
+    font-size:1.2rem ;
+    font-weight: bold;
+}
+
+.article-4{
+    width: 70px;
+    height: 30px;
+    background-color: #800020; 
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 3px;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 1.1rem;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.article-5{
+    display: block;
+    background-color: #800020;
+    color: rgb(248, 243, 194);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+    
+.first:hover{
+    border: 4px solid #b2b1be;
+}
+
+
+
+
+.article-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;  
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.article-1-1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.parent{
+    display: flex;
+    
+    border: 2px solid #faf9f9 ;
+    border-radius: 40px;
+    font-size: 1rem;
+    background-color: white;
+    line-height: 1.8;
+    margin: 50px 50px 100px 50px;
+    height: 250px;
+}
+.box1{
+    width: 250px;
+    padding-top: 110px;
+    padding-left: 60px;
+    font-weight: bold;
+    
+}
+.box2{
+    border-left: #b2b1be 3px solid;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.boldd{
+    font-weight: bold;
+}
+
+                    
+footer{
+    background-color: #0a0731;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+                       
+   
+}
+                    
+.div-ul{
+    color:rgb(225,203,112) ;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    line-height: 2;
+}
+@media(max-width:615px){
+    nav{
+        height: 90px;
+    }
+}
+
+@media(max-width:1080px){
+    .parent{
+        height: 300px;
+    }
+}
+
+@media(max-width:790px){
+    .parent{
+        height: 350px;
+        font-size: 0.8rem;
+    }
+    .box1{
+        padding-top: 150px;
+    }
+}
+
+@media(max-width:600px){
+    .parent{
+        height: 400px;
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width:455px){
+    .parent{
+        height: 600px;
+        font-size: 0.6rem;
+    }
+    .box1{
+        padding-top: 250px;
+    }
+}
+
+
+
+@media(max-width:760px){
+    nav{
+       font-size: 0.8rem;
+    }
+ }
+
+
+    
+            
+    
+    
+ 
+
+                
